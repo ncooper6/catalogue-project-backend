@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+//mongoose model used to set a products data fields
+
 const productSchema = mongoose.Schema({
     title: String,
     type: String,
